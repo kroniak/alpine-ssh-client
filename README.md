@@ -1,14 +1,15 @@
 # alpine-ssh-client
+
 A little docker image based on alpine with ssh-client and bash
 
-# using from GitLab CI
+## using from GitLab CI
 
 ```yml
 deploy_staging:
   stage: deploy
   image: kroniak/ssh-client
   environment: Staging
-  script: 
+  script:
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
@@ -23,10 +24,12 @@ deploy_staging:
     - dev
 ```
 
-# using from docker
+## using from docker
 
 `docker run -it --rm kroniak/ssh-client bash`
 
-# supported tags and respective Dockerfile links
+## supported tags and respective Dockerfile links
+
 - 3.1 [3.1/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.1/Dockerfile)
-- 3.6, latest [3.6/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.6/Dockerfile)
+- 3.6 [3.6/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.6/Dockerfile)
+- 3.9, latest [3.9/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.9/Dockerfile)
