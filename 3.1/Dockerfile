@@ -1,5 +1,6 @@
 FROM alpine:3.1
-RUN apk add --no-cache \
+RUN apk update \
+  && apk add \
   openssh-client \
   ca-certificates \
   bash
