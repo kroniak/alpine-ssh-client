@@ -35,4 +35,4 @@ deploy_staging:
 - 3.12 [3.12/Dockerfile](3.12/Dockerfile)
 - 3.13 [3.13/Dockerfile](3.13/Dockerfile)
 - 3.14 [3.14/Dockerfile](3.14/Dockerfile)
-- 3.15, latest [3.15/Dockerfile](3.11/Dockerfile)
+- 3.15, latest [3.15/Dockerfile](3.15/Dockerfile)
