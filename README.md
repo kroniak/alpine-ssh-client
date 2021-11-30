@@ -32,8 +32,7 @@ deploy_staging:
 
 ## supported tags and respective Dockerfile links
 
-- 3.1 [3.1/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.1/Dockerfile)
-- 3.6 [3.6/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.6/Dockerfile)
-- 3.9 [3.9/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.9/Dockerfile)
-- 3.10 [3.10/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.10/Dockerfile)
-- 3.11, latest [3.11/Dockerfile](https://github.com/kroniak/alpine-ssh-client/blob/master/3.11/Dockerfile)
+- 3.12 [3.12/Dockerfile](3.12/Dockerfile)
+- 3.13 [3.13/Dockerfile](3.13/Dockerfile)
+- 3.14 [3.14/Dockerfile](3.14/Dockerfile)
+- 3.15, latest [3.15/Dockerfile](3.15/Dockerfile)
