@@ -13,5 +13,3 @@ docker build -t kroniak/ssh-client:3.13 "$SCRIPT_ROOT/../3.13"
 docker build -t kroniak/ssh-client:3.14 "$SCRIPT_ROOT/../3.14"
 docker build -t kroniak/ssh-client:3.15 "$SCRIPT_ROOT/../3.15"
 docker build -t kroniak/ssh-client:latest "$SCRIPT_ROOT/.."
-
-docker rmi -f $(docker images -q --filter "dangling=true")
