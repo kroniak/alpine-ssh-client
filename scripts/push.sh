@@ -17,4 +17,5 @@ docker push kroniak/ssh-client:3.15
 docker push kroniak/ssh-client:3.16
 docker push kroniak/ssh-client:3.17
 docker push kroniak/ssh-client:3.18
+docker push kroniak/ssh-client:3.19
 docker push kroniak/ssh-client:latest

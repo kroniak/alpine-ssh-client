@@ -15,4 +15,5 @@ docker buildx build --platform linux/amd64 -t kroniak/ssh-client:3.15 "$SCRIPT_R
 docker buildx build --platform linux/amd64 -t kroniak/ssh-client:3.16 "$SCRIPT_ROOT/../3.16"
 docker buildx build --platform linux/amd64 -t kroniak/ssh-client:3.17 "$SCRIPT_ROOT/../3.17"
 docker buildx build --platform linux/amd64 -t kroniak/ssh-client:3.18 "$SCRIPT_ROOT/../3.18"
+docker buildx build --platform linux/amd64 -t kroniak/ssh-client:3.19 "$SCRIPT_ROOT/../3.18"
 docker buildx build --platform linux/amd64 -t kroniak/ssh-client:latest "$SCRIPT_ROOT/.."
