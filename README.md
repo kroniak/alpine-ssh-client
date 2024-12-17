@@ -32,11 +32,5 @@ deploy_staging:
 
 ## supported tags and respective Dockerfile links
 
-- 3.12 [3.12/Dockerfile](3.12/Dockerfile)
-- 3.13 [3.13/Dockerfile](3.13/Dockerfile)
-- 3.14 [3.14/Dockerfile](3.14/Dockerfile)
-- 3.15 [3.15/Dockerfile](3.15/Dockerfile)
-- 3.16 [3.16/Dockerfile](3.16/Dockerfile)
-- 3.17 [3.17/Dockerfile](3.17/Dockerfile)
 - 3.18 [3.18/Dockerfile](3.18/Dockerfile)
 - 3.19, latest [3.19/Dockerfile](3.19/Dockerfile)
