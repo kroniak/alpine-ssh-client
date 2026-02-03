@@ -12,4 +12,6 @@ docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kron
 docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:3.19 "$SCRIPT_ROOT/../3.19"
 docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:3.20 "$SCRIPT_ROOT/../3.20"
 docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:3.21 "$SCRIPT_ROOT/../3.21"
+docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:3.22 "$SCRIPT_ROOT/../3.22"
+docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:3.23 "$SCRIPT_ROOT/../3.23"
 docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t kroniak/ssh-client:latest "$SCRIPT_ROOT/.."
